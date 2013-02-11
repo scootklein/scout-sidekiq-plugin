@@ -42,8 +42,6 @@ class SidekiqMonitor < Scout::Plugin
     begin
       stats = Sidekiq::Stats.new
 
-      enqueued, failed, processed = stats.enqueued, stats.failed, stats.processed
-
       [:enqueued, :failed, :processed].each do |nsym|
         report(nsym => stats.send(nsym))
         counter("#{nsym}_per_minute".to_sym, stats.send(nsym), :per => :minute)
