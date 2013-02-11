@@ -8,6 +8,8 @@ To activate, log in to your Scout account at http://scoutapp.com and add the Sid
 
 ## Author
 
-Scott Klein <scott@statuspage.io>
-[https://www.statuspage.io](https://www.statuspage.io)
-Follow [@statuspageio](http://twitter.com/statuspageio) on twitter
+<scott@statuspage.io> - Scott Klein
+
+[https://www.statuspage.io](https://www.statuspage.io) - hosted white label status pages for SaaS apps and developer APIs
+
+[@statuspageio](http://twitter.com/statuspageio) - follow on twitter
